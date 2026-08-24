@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Webs, apps y automatización con IA para founders, startups y empresas. Automatia Studio construye tu software y lo hace trabajar solo.">
+<meta property="og:site_name" content="Automatia Studio">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Webs, apps y automatización con IA para founders, startups y empresas. Automatia Studio construye tu software y lo hace trabajar solo.">
+  <title>Automatia Studio · Webs, apps y automatización con IA</title>
+      <link rel="stylesheet" href="vendor/fonts.css">
+  <link rel="stylesheet" href="vendor/phosphor.css">
+  <script src="vendor/three.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div style="position: relative; width: 100%; overflow: hidden; background: #0A0810;">
+
+  <div id="om-top-sentinel" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 1px; pointer-events: none;"></div>
+
+  <header id="om-header" style="position: sticky; top: 0; z-index: 60; width: 100%;">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 0 24px; height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 24px;">
+      <a href="#top" aria-label="Automatia Studio, inicio" style="display: flex; align-items: center; flex-shrink: 0;">
+        <img src="assets/logo.png" alt="Automatia Studio" style="height: 38px; width: auto; display: block;">
+      </a>
+
+
+      <a class="ai0" id="om-header-cta" href="#contacto" style="flex-shrink: 0; display: inline-flex; align-items: center; height: 48px; padding: 0 24px; border-radius: 999px; background: #FF3294; color: #0A0810; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 16px; transition: filter .2s ease, transform .2s cubic-bezier(.16,1,.3,1);">
+        Agendar llamada
+      </a>
+
+    </div>
+
+  </header>
+
+  <section id="top" style="position: relative; z-index: 1; margin-top: -88px; min-height: min(100dvh, 940px); display: flex; align-items: center; padding: 132px 24px 64px; overflow: hidden;">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: radial-gradient(ellipse 62% 58% at 50% 46%, rgba(255,50,148,.26), transparent 70%), radial-gradient(ellipse 80% 70% at 50% 18%, rgba(61,49,91,.62), transparent 72%);"></div>
+    <div id="om-nebula" aria-hidden="true" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1.4s ease;"></div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: radial-gradient(ellipse 58% 52% at 50% 52%, rgba(10,8,16,.86), rgba(10,8,16,.34) 70%, transparent 100%);"></div>
+    <div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 220px; background: linear-gradient(180deg, transparent, #0A0810);"></div>
+
+    <div style="position: relative; z-index: 2; max-width: 1000px; width: 100%; margin: 0 auto; text-align: center;">
+      <p data-r="" style="margin: 0; display: inline-flex; align-items: center; padding: 8px 16px; border-radius: 999px; border: 1px solid rgba(65,234,212,.3); background: rgba(10,8,16,.4); font-family: 'Jost', sans-serif; font-size: 13.5px; letter-spacing: .04em; color: #41EAD4;">Agencia de Automatización e IA</p>
+
+      <h1 data-r="" data-d="70" style="margin: 28px auto 0; max-width: 20ch; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(44px, 8vw, 96px); line-height: 1.0; letter-spacing: -.035em; color: #F7F2F8; text-wrap: balance;">
+        Construimos tu software y lo hacemos <span style="color: #FF3294;">trabajar solo</span>.
+      </h1>
+
+      <p data-r="" data-d="140" style="margin: 28px auto 0; max-width: 52ch; font-size: clamp(17px, 1.9vw, 20px); line-height: 1.6; color: rgba(227,211,228,.74); text-wrap: pretty;">
+        Webs, apps y automatización con IA para founders, startups y empresas que ya no quieren hacer nada a mano.
+      </p>
+
+      <div data-r="" data-d="210" style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 40px; justify-content: center;">
+        <a class="ai1" href="#contacto" style="display: inline-flex; align-items: center; gap: 10px; height: 58px; padding: 0 30px; border-radius: 999px; background: #FF3294; color: #0A0810; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 17px; transition: filter .2s ease, transform .2s cubic-bezier(.16,1,.3,1);">
+          Agendar llamada
+          <i class="ph ph-arrow-right" style="font-size: 19px;"></i>
+        </a>
+        <button class="ai2" type="button" data-video-open="" style="display: inline-flex; align-items: center; gap: 12px; height: 58px; padding: 0 28px 0 22px; border-radius: 999px; border: 1px solid rgba(65,234,212,.35); background: rgba(65,234,212,.06); color: #E3D3E4; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 17px; cursor: pointer; transition: border-color .2s ease, background .2s ease, transform .2s cubic-bezier(.16,1,.3,1);">
+          <i class="ph ph-play-circle" style="font-size: 24px; color: #41EAD4;"></i>
+          Esto es lo que hacemos por ti
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section style="position: relative; padding: clamp(40px, 5vw, 64px) 24px clamp(48px, 6vw, 72px);">
+    <div style="max-width: 1240px; margin: 0 auto; text-align: center;">
+      <p data-r="" style="margin: 0 0 30px; font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; color: #41EAD4;">Expertos en</p>
+      <div data-r="" data-d="70" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: clamp(28px, 5vw, 64px);">
+        <img class="ai3" src="https://automatiastudio.com/wp-content/uploads/2026/04/claude1.png" data-local="assets/img/tools/claude1.png" alt="Claude" loading="lazy" style="height: 34px; width: auto; max-width: 150px; object-fit: contain; filter: brightness(0) invert(1); opacity: .72; transition: opacity .3s ease;">
+        <img class="ai4" src="https://automatiastudio.com/wp-content/uploads/2025/12/openai.png" data-local="assets/img/tools/openai.png" alt="OpenAI" loading="lazy" style="height: 34px; width: auto; max-width: 150px; object-fit: contain; filter: brightness(0) invert(1); opacity: .72; transition: opacity .3s ease;">
+        <img class="ai5" src="https://automatiastudio.com/wp-content/uploads/2025/12/n8n-1.png" data-local="assets/img/tools/n8n-1.png" alt="n8n" loading="lazy" style="height: 34px; width: auto; max-width: 150px; object-fit: contain; filter: brightness(0) invert(1); opacity: .72; transition: opacity .3s ease;">
+        <img class="ai6" src="https://automatiastudio.com/wp-content/uploads/2024/12/wp1.png" data-local="assets/img/tools/wp1.png" alt="WordPress" loading="lazy" style="height: 34px; width: auto; max-width: 150px; object-fit: contain; filter: brightness(0) invert(1); opacity: .72; transition: opacity .3s ease;">
+        <img class="ai7" src="https://automatiastudio.com/wp-content/uploads/2025/02/whatsapp-api.png" data-local="assets/img/tools/whatsapp-api.png" alt="WhatsApp Business API" loading="lazy" style="height: 34px; width: auto; max-width: 150px; object-fit: contain; filter: brightness(0) invert(1); opacity: .72; transition: opacity .3s ease;">
+        <img class="ai8" src="https://automatiastudio.com/wp-content/uploads/2025/12/sendpulse-1.png" data-local="assets/img/tools/sendpulse-1.png" alt="SendPulse" loading="lazy" style="height: 34px; width: auto; max-width: 150px; object-fit: contain; filter: brightness(0) invert(1); opacity: .72; transition: opacity .3s ease;">
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" style="position: relative; padding: clamp(64px, 8vw, 112px) 24px;">
+    <div style="max-width: 1240px; margin: 0 auto;">
+      <div data-r="" style="max-width: 720px; margin: 0 auto clamp(40px, 5vw, 64px); text-align: center;">
+        <h2 style="margin: 0 0 18px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(32px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -.03em; color: #F7F2F8; text-wrap: balance;">Todo lo que hay entre tu idea y <span style="color: #FF3294;">un producto vivo</span></h2>
+        <p style="margin: 0 auto; max-width: 56ch; font-size: 17px; line-height: 1.62; color: rgba(227,211,228,.66);">No vendemos horas sueltas. Entregamos la interfaz que ve tu cliente y la maquinaria que corre por debajo.</p>
+      </div>
+
+      <div style="display: flex; flex-direction: column;">
+
+        <article data-r="" class="om-split ai9" style="display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 20px 48px; padding: 30px 0; border-top: 1px solid rgba(227,211,228,.12); transition: border-color .3s ease;">
+          <h3 style="margin: 0; display: flex; align-items: center; gap: 16px; font-family: 'Jost', sans-serif; font-size: clamp(21px, 2.4vw, 27px); font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">
+            <i class="ph ph-browsers" style="font-size: 26px; color: #FF3294; flex-shrink: 0;"></i>
+            Páginas web y e-commerce
+          </h3>
+          <p style="margin: 0; font-size: 16.5px; line-height: 1.65; color: rgba(227,211,228,.64); max-width: 58ch;">Sitios rápidos, medibles y hechos para convertir. Landings, sitios corporativos y tiendas que cargan antes de que el visitante se aburra.</p>
+        </article>
+
+        <article data-r="" class="om-split ai10" style="display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 20px 48px; padding: 30px 0; border-top: 1px solid rgba(227,211,228,.12); transition: border-color .3s ease;">
+          <h3 style="margin: 0; display: flex; align-items: center; gap: 16px; font-family: 'Jost', sans-serif; font-size: clamp(21px, 2.4vw, 27px); font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">
+            <i class="ph ph-squares-four" style="font-size: 26px; color: #FF3294; flex-shrink: 0;"></i>
+            Aplicaciones web a medida
+          </h3>
+          <p style="margin: 0; font-size: 16.5px; line-height: 1.65; color: rgba(227,211,228,.64); max-width: 58ch;">CRMs, paneles internos, portales de clientes, gestores de proyecto. Tu propia versión de esa herramienta que hoy pagas por usuario.</p>
+        </article>
+
+        <article data-r="" class="om-split ai11" style="display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 20px 48px; padding: 30px 0; border-top: 1px solid rgba(227,211,228,.12); transition: border-color .3s ease;">
+          <h3 style="margin: 0; display: flex; align-items: center; gap: 16px; font-family: 'Jost', sans-serif; font-size: clamp(21px, 2.4vw, 27px); font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">
+            <i class="ph ph-device-mobile" style="font-size: 26px; color: #FF3294; flex-shrink: 0;"></i>
+            Apps móviles
+          </h3>
+          <p style="margin: 0; font-size: 16.5px; line-height: 1.65; color: rgba(227,211,228,.64); max-width: 58ch;">iOS y Android desde una sola base de código. Del prototipo a las tiendas, con notificaciones, pagos y sincronización real.</p>
+        </article>
+
+        <article data-r="" class="om-split ai12" style="display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 20px 48px; padding: 30px 0; border-top: 1px solid rgba(227,211,228,.12); transition: border-color .3s ease;">
+          <h3 style="margin: 0; display: flex; align-items: center; gap: 16px; font-family: 'Jost', sans-serif; font-size: clamp(21px, 2.4vw, 27px); font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">
+            <i class="ph ph-flow-arrow" style="font-size: 26px; color: #FF3294; flex-shrink: 0;"></i>
+            Automatización de procesos
+          </h3>
+          <p style="margin: 0; font-size: 16.5px; line-height: 1.65; color: rgba(227,211,228,.64); max-width: 58ch;">Conectamos tus herramientas con n8n para que los datos se muevan solos: leads al CRM, facturas, onboarding, alertas y posventa.</p>
+        </article>
+
+        <article data-r="" class="om-split ai13" style="display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 20px 48px; padding: 30px 0; border-top: 1px solid rgba(227,211,228,.12); transition: border-color .3s ease;">
+          <h3 style="margin: 0; display: flex; align-items: center; gap: 16px; font-family: 'Jost', sans-serif; font-size: clamp(21px, 2.4vw, 27px); font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">
+            <i class="ph ph-robot" style="font-size: 26px; color: #FF3294; flex-shrink: 0;"></i>
+            Agentes de IA y bots
+          </h3>
+          <p style="margin: 0; font-size: 16.5px; line-height: 1.65; color: rgba(227,211,228,.64); max-width: 58ch;">Agentes sobre Claude y OpenAI que atienden por WhatsApp, califican prospectos y agendan citas. Con tu tono y con tu información.</p>
+        </article>
+
+        <article data-r="" class="om-split ai14" style="display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 20px 48px; padding: 30px 0; border-top: 1px solid rgba(227,211,228,.12); border-bottom: 1px solid rgba(227,211,228,.12); transition: border-color .3s ease;">
+          <h3 style="margin: 0; display: flex; align-items: center; gap: 16px; font-family: 'Jost', sans-serif; font-size: clamp(21px, 2.4vw, 27px); font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">
+            <i class="ph ph-hard-drives" style="font-size: 26px; color: #FF3294; flex-shrink: 0;"></i>
+            Infraestructura y soporte
+          </h3>
+          <p style="margin: 0; font-size: 16.5px; line-height: 1.65; color: rgba(227,211,228,.64); max-width: 58ch;">Servidor propio, respaldos, monitoreo y mantenimiento. No te dejamos con un repositorio y buena suerte: nos quedamos operando.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="position: relative; padding: 0 0 clamp(56px, 7vw, 88px);">
+    <p data-r="" style="margin: 0 auto 26px; max-width: 1240px; padding: 0 24px; text-align: center; font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; color: rgba(227,211,228,.64);">Confían en el estudio</p>
+    <div style="position: relative; width: 100%; overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);">
+      <div style="display: flex; width: max-content; gap: 64px; animation: om-marquee 60s linear infinite; align-items: center; padding: 0 32px;">
+        <img class="ai15" src="https://automatiastudio.com/wp-content/uploads/2025/12/tenoriorun.png" data-local="assets/img/clientes/tenoriorun.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai16" src="https://automatiastudio.com/wp-content/uploads/2025/12/vimofy.png" data-local="assets/img/clientes/vimofy.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai17" src="https://automatiastudio.com/wp-content/uploads/2025/12/ccp.png" data-local="assets/img/clientes/ccp.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai18" src="https://automatiastudio.com/wp-content/uploads/2025/12/culturamanor.png" data-local="assets/img/clientes/culturamanor.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai19" src="https://automatiastudio.com/wp-content/uploads/2025/12/cloud9.png" data-local="assets/img/clientes/cloud9.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai20" src="https://automatiastudio.com/wp-content/uploads/2025/12/gelart.png" data-local="assets/img/clientes/gelart.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai21" src="https://automatiastudio.com/wp-content/uploads/2025/12/phalopia.png" data-local="assets/img/clientes/phalopia.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai22" src="https://automatiastudio.com/wp-content/uploads/2025/12/audicomer.png" data-local="assets/img/clientes/audicomer.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai23" src="https://automatiastudio.com/wp-content/uploads/2025/12/salc.png" data-local="assets/img/clientes/salc.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai24" src="https://automatiastudio.com/wp-content/uploads/2025/12/roiseller.png" data-local="assets/img/clientes/roiseller.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai25" src="https://automatiastudio.com/wp-content/uploads/2025/12/propalma.png" data-local="assets/img/clientes/propalma.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai26" src="https://automatiastudio.com/wp-content/uploads/2025/12/predia.png" data-local="assets/img/clientes/predia.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai27" src="https://automatiastudio.com/wp-content/uploads/2025/12/pixel.png" data-local="assets/img/clientes/pixel.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai28" src="https://automatiastudio.com/wp-content/uploads/2025/12/navegavia.png" data-local="assets/img/clientes/navegavia.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai29" src="https://automatiastudio.com/wp-content/uploads/2025/12/marcseal.png" data-local="assets/img/clientes/marcseal.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai30" src="https://automatiastudio.com/wp-content/uploads/2025/12/magic.png" data-local="assets/img/clientes/magic.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai31" src="https://automatiastudio.com/wp-content/uploads/2025/12/kikejav.png" data-local="assets/img/clientes/kikejav.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai32" src="https://automatiastudio.com/wp-content/uploads/2025/12/junki.png" data-local="assets/img/clientes/junki.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai33" src="https://automatiastudio.com/wp-content/uploads/2025/12/istte.png" data-local="assets/img/clientes/istte.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai34" src="https://automatiastudio.com/wp-content/uploads/2025/12/hrservices.png" data-local="assets/img/clientes/hrservices.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai35" src="https://automatiastudio.com/wp-content/uploads/2025/12/incoreacables.png" data-local="assets/img/clientes/incoreacables.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai36" src="https://automatiastudio.com/wp-content/uploads/2025/12/florasintesis.png" data-local="assets/img/clientes/florasintesis.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai37" src="https://automatiastudio.com/wp-content/uploads/2025/12/ehhec.png" data-local="assets/img/clientes/ehhec.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai38" src="https://automatiastudio.com/wp-content/uploads/2025/12/dentalayala.png" data-local="assets/img/clientes/dentalayala.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai39" src="https://automatiastudio.com/wp-content/uploads/2025/12/danielas.png" data-local="assets/img/clientes/danielas.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai40" src="https://automatiastudio.com/wp-content/uploads/2025/12/geinsotec.png" data-local="assets/img/clientes/geinsotec.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai41" src="https://automatiastudio.com/wp-content/uploads/2025/12/agronpaxi.png" data-local="assets/img/clientes/agronpaxi.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai42" src="https://automatiastudio.com/wp-content/uploads/2025/12/almudena.png" data-local="assets/img/clientes/almudena.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai43" src="https://automatiastudio.com/wp-content/uploads/2025/12/aromfactory.png" data-local="assets/img/clientes/aromfactory.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai44" src="https://automatiastudio.com/wp-content/uploads/2025/12/mundo.png" data-local="assets/img/clientes/mundo.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai45" src="https://automatiastudio.com/wp-content/uploads/2025/12/tenoriorun.png" data-local="assets/img/clientes/tenoriorun.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai46" src="https://automatiastudio.com/wp-content/uploads/2025/12/vimofy.png" data-local="assets/img/clientes/vimofy.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai47" src="https://automatiastudio.com/wp-content/uploads/2025/12/ccp.png" data-local="assets/img/clientes/ccp.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai48" src="https://automatiastudio.com/wp-content/uploads/2025/12/culturamanor.png" data-local="assets/img/clientes/culturamanor.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai49" src="https://automatiastudio.com/wp-content/uploads/2025/12/cloud9.png" data-local="assets/img/clientes/cloud9.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai50" src="https://automatiastudio.com/wp-content/uploads/2025/12/gelart.png" data-local="assets/img/clientes/gelart.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai51" src="https://automatiastudio.com/wp-content/uploads/2025/12/phalopia.png" data-local="assets/img/clientes/phalopia.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai52" src="https://automatiastudio.com/wp-content/uploads/2025/12/audicomer.png" data-local="assets/img/clientes/audicomer.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai53" src="https://automatiastudio.com/wp-content/uploads/2025/12/salc.png" data-local="assets/img/clientes/salc.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai54" src="https://automatiastudio.com/wp-content/uploads/2025/12/roiseller.png" data-local="assets/img/clientes/roiseller.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai55" src="https://automatiastudio.com/wp-content/uploads/2025/12/propalma.png" data-local="assets/img/clientes/propalma.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai56" src="https://automatiastudio.com/wp-content/uploads/2025/12/predia.png" data-local="assets/img/clientes/predia.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai57" src="https://automatiastudio.com/wp-content/uploads/2025/12/pixel.png" data-local="assets/img/clientes/pixel.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai58" src="https://automatiastudio.com/wp-content/uploads/2025/12/navegavia.png" data-local="assets/img/clientes/navegavia.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai59" src="https://automatiastudio.com/wp-content/uploads/2025/12/marcseal.png" data-local="assets/img/clientes/marcseal.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai60" src="https://automatiastudio.com/wp-content/uploads/2025/12/magic.png" data-local="assets/img/clientes/magic.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai61" src="https://automatiastudio.com/wp-content/uploads/2025/12/kikejav.png" data-local="assets/img/clientes/kikejav.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai62" src="https://automatiastudio.com/wp-content/uploads/2025/12/junki.png" data-local="assets/img/clientes/junki.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai63" src="https://automatiastudio.com/wp-content/uploads/2025/12/istte.png" data-local="assets/img/clientes/istte.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai64" src="https://automatiastudio.com/wp-content/uploads/2025/12/hrservices.png" data-local="assets/img/clientes/hrservices.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai65" src="https://automatiastudio.com/wp-content/uploads/2025/12/incoreacables.png" data-local="assets/img/clientes/incoreacables.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai66" src="https://automatiastudio.com/wp-content/uploads/2025/12/florasintesis.png" data-local="assets/img/clientes/florasintesis.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai67" src="https://automatiastudio.com/wp-content/uploads/2025/12/ehhec.png" data-local="assets/img/clientes/ehhec.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai68" src="https://automatiastudio.com/wp-content/uploads/2025/12/dentalayala.png" data-local="assets/img/clientes/dentalayala.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai69" src="https://automatiastudio.com/wp-content/uploads/2025/12/danielas.png" data-local="assets/img/clientes/danielas.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai70" src="https://automatiastudio.com/wp-content/uploads/2025/12/geinsotec.png" data-local="assets/img/clientes/geinsotec.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai71" src="https://automatiastudio.com/wp-content/uploads/2025/12/agronpaxi.png" data-local="assets/img/clientes/agronpaxi.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai72" src="https://automatiastudio.com/wp-content/uploads/2025/12/almudena.png" data-local="assets/img/clientes/almudena.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai73" src="https://automatiastudio.com/wp-content/uploads/2025/12/aromfactory.png" data-local="assets/img/clientes/aromfactory.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+          <img class="ai74" src="https://automatiastudio.com/wp-content/uploads/2025/12/mundo.png" data-local="assets/img/clientes/mundo.png" alt="" loading="lazy" style="height: 34px; width: auto; max-width: 148px; object-fit: contain; filter: brightness(0) invert(1); opacity: .5; transition: opacity .3s ease;">
+      </div>
+    </div>
+  </section>
+
+  <section id="resultados" style="position: relative; padding: clamp(72px, 9vw, 124px) 24px; background: linear-gradient(180deg, transparent, rgba(61,49,91,.3), transparent);">
+    <div style="max-width: 1080px; margin: 0 auto;">
+      <div data-r="" style="max-width: 740px; margin: 0 auto clamp(40px, 5vw, 64px); text-align: center;">
+        <h2 style="margin: 0 0 18px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(32px, 4.8vw, 58px); line-height: 1.03; letter-spacing: -.03em; color: #F7F2F8; text-wrap: balance;">Tu nueva <span style="color: #FF3294;">realidad operativa</span></h2>
+        <p style="margin: 0 auto; max-width: 58ch; font-size: 17.5px; line-height: 1.62; color: rgba(227,211,228,.68);">Esto es exactamente lo que cambia en tu día a día cuando el sistema queda instalado. Sin metáforas.</p>
+      </div>
+
+      <div data-r="" data-d="60" class="om-labels" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 40px; margin-bottom: 8px;">
+        <p style="margin: 0; font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: rgba(227,211,228,.64);">Hoy</p>
+        <p style="margin: 0; font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: #FF3294;">Con Automatia Studio</p>
+      </div>
+
+      <div style="display: flex; flex-direction: column;">
+
+        <div data-r="" class="om-shift" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 40px; padding: 24px 0; border-top: 1px solid rgba(227,211,228,.13);">
+          <p class="om-was" style="margin: 0; font-size: 16.5px; line-height: 1.55; color: rgba(227,211,228,.55);">Pasas información de una app a otra copiando y pegando.</p>
+          <p class="om-now" style="margin: 0; display: flex; gap: 12px; font-family: 'Jost', sans-serif; font-size: clamp(18px, 2vw, 21px); line-height: 1.4; color: #F7F2F8;"><i class="ph ph-arrow-right" style="font-size: 20px; color: #41EAD4; flex-shrink: 0; margin-top: 3px;"></i>Los datos viajan solos entre tus herramientas, en el mismo segundo.</p>
+        </div>
+
+        <div data-r="" class="om-shift" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 40px; padding: 24px 0; border-top: 1px solid rgba(227,211,228,.13);">
+          <p class="om-was" style="margin: 0; font-size: 16.5px; line-height: 1.55; color: rgba(227,211,228,.55);">Contestas el mismo mensaje cincuenta veces al día desde el celular.</p>
+          <p class="om-now" style="margin: 0; display: flex; gap: 12px; font-family: 'Jost', sans-serif; font-size: clamp(18px, 2vw, 21px); line-height: 1.4; color: #F7F2F8;"><i class="ph ph-arrow-right" style="font-size: 20px; color: #41EAD4; flex-shrink: 0; margin-top: 3px;"></i>Un agente responde al instante con tu tono, y tú entras solo a cerrar.</p>
+        </div>
+
+        <div data-r="" class="om-shift" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 40px; padding: 24px 0; border-top: 1px solid rgba(227,211,228,.13);">
+          <p class="om-was" style="margin: 0; font-size: 16.5px; line-height: 1.55; color: rgba(227,211,228,.55);">Si falta una persona clave, la operación se frena.</p>
+          <p class="om-now" style="margin: 0; display: flex; gap: 12px; font-family: 'Jost', sans-serif; font-size: clamp(18px, 2vw, 21px); line-height: 1.4; color: #F7F2F8;"><i class="ph ph-arrow-right" style="font-size: 20px; color: #41EAD4; flex-shrink: 0; margin-top: 3px;"></i>El proceso corre igual, esté quien esté. Vive en el sistema, no en una cabeza.</p>
+        </div>
+
+        <div data-r="" class="om-shift" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 40px; padding: 24px 0; border-top: 1px solid rgba(227,211,228,.13);">
+          <p class="om-was" style="margin: 0; font-size: 16.5px; line-height: 1.55; color: rgba(227,211,228,.55);">Pagas suscripciones por usuario todos los meses, uses la app o no.</p>
+          <p class="om-now" style="margin: 0; display: flex; gap: 12px; font-family: 'Jost', sans-serif; font-size: clamp(18px, 2vw, 21px); line-height: 1.4; color: #F7F2F8;"><i class="ph ph-arrow-right" style="font-size: 20px; color: #41EAD4; flex-shrink: 0; margin-top: 3px;"></i>Tus apps viven en tu servidor. Sumas usuarios sin que suba la factura.</p>
+        </div>
+
+        <div data-r="" class="om-shift" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 40px; padding: 24px 0; border-top: 1px solid rgba(227,211,228,.13);">
+          <p class="om-was" style="margin: 0; font-size: 16.5px; line-height: 1.55; color: rgba(227,211,228,.55);">Decides con planillas que alguien actualizó la semana pasada.</p>
+          <p class="om-now" style="margin: 0; display: flex; gap: 12px; font-family: 'Jost', sans-serif; font-size: clamp(18px, 2vw, 21px); line-height: 1.4; color: #F7F2F8;"><i class="ph ph-arrow-right" style="font-size: 20px; color: #41EAD4; flex-shrink: 0; margin-top: 3px;"></i>Abres un panel y ves ventas, tareas y cobros al día de hoy.</p>
+        </div>
+
+        <div data-r="" class="om-shift" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 40px; padding: 24px 0; border-top: 1px solid rgba(227,211,228,.13); border-bottom: 1px solid rgba(227,211,228,.13);">
+          <p class="om-was" style="margin: 0; font-size: 16.5px; line-height: 1.55; color: rgba(227,211,228,.55);">Un error de tipeo entre el CRM y la facturación te cuesta dinero.</p>
+          <p class="om-now" style="margin: 0; display: flex; gap: 12px; font-family: 'Jost', sans-serif; font-size: clamp(18px, 2vw, 21px); line-height: 1.4; color: #F7F2F8;"><i class="ph ph-arrow-right" style="font-size: 20px; color: #41EAD4; flex-shrink: 0; margin-top: 3px;"></i>Nadie teclea dos veces lo mismo, así que el error humano desaparece.</p>
+        </div>
+
+      </div>
+
+      <div data-r="" data-d="60" style="margin-top: clamp(44px, 6vw, 68px);">
+        <button class="ai75" type="button" data-video-open="" aria-label="Ver el video: esto es lo que hacemos por ti" style="position: relative; display: block; width: 100%; padding: 0; border: 1px solid rgba(227,211,228,.14); border-radius: 20px; overflow: hidden; background: #100D18; cursor: pointer; transition: border-color .3s ease;">
+          <img src="assets/img/video-cover.jpg" alt="Vista previa del video de Automatia Studio" loading="lazy" data-yt-thumb="" style="display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; opacity: .5;">
+          <span style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; background: linear-gradient(180deg, rgba(10,8,16,.3), rgba(10,8,16,.72));">
+            <span style="width: 78px; height: 78px; border-radius: 999px; background: #FF3294; display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 40px rgba(255,50,148,.4);">
+              <i class="ph ph-play" style="font-size: 32px; color: #FFF6FA; margin-left: 4px;"></i>
+            </span>
+            <span style="font-family: 'Jost', sans-serif; font-size: clamp(17px, 2vw, 21px); font-weight: 500; color: #F7F2F8; letter-spacing: -.01em;"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="enfoque" style="position: relative; padding: clamp(72px, 9vw, 120px) 24px;">
+    <div style="max-width: 1000px; margin: 0 auto;">
+      <div data-r="" style="text-align: center; margin-bottom: clamp(40px, 5vw, 60px);">
+        <h2 style="margin: 0 auto 22px; max-width: 22ch; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(34px, 5vw, 62px); line-height: 1.02; letter-spacing: -.035em; color: #F7F2F8; text-wrap: balance;">Cálculo y planificación en lugar de&nbsp;<span style="color: rgb(65, 234, 212);">"todo IA"</span></h2>
+        <p style="margin: 0 auto; max-width: 62ch; font-size: clamp(17px, 2vw, 20px); line-height: 1.62; color: rgba(227,211,228,.72); text-wrap: pretty;">La IA nos hizo más rápidos, no más ignorantes. Donde antes hacían falta diez ingenieros, hoy somos dos ingenieros más un stack de IA que multiplica lo que ya sabíamos hacer.</p>
+      </div>
+
+      <div data-r="" data-d="80" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px 40px;">
+        <div style="text-align: center;">
+          <i class="ph ph-compass-tool" style="font-size: 28px; color: #41EAD4; display: block; margin: 0 auto 16px;"></i>
+          <h3 style="margin: 0 0 10px; font-family: 'Jost', sans-serif; font-size: 21px; font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">Criterio antes que prompt</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.62; color: rgba(227,211,228,.64);">La IA propone; nosotros decidimos qué entra en producción y qué se descarta. Nada llega a tu negocio sin revisión humana.</p>
+        </div>
+        <div style="text-align: center;">
+          <i class="ph ph-code-block" style="font-size: 28px; color: #41EAD4; display: block; margin: 0 auto 16px;"></i>
+          <h3 style="margin: 0 0 10px; font-family: 'Jost', sans-serif; font-size: 21px; font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">Profesionales desde 2015</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.62; color: rgba(227,211,228,.64);">Llevamos una década construyendo software, empezando cuando no existía ningún modelo al que preguntarle. Ese criterio no se descarga.</p>
+        </div>
+        <div style="text-align: center;">
+          <i class="ph ph-users-three" style="font-size: 28px; color: #41EAD4; display: block; margin: 0 auto 16px;"></i>
+          <h3 style="margin: 0 0 10px; font-family: 'Jost', sans-serif; font-size: 21px; font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">Equipo pequeño, cuentas claras</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.62; color: rgba(227,211,228,.64);">Hablas directo con quien construye. Sin capas de cuentas intermedias y sin explicar tu proyecto dos veces.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proceso" style="position: relative; padding: clamp(64px, 8vw, 112px) 24px; background: linear-gradient(180deg, transparent, rgba(61,49,91,.26), transparent);">
+    <div style="max-width: 1240px; margin: 0 auto;">
+      <div data-r="" style="max-width: 680px; margin: 0 auto clamp(44px, 6vw, 68px); text-align: center;">
+        <h2 style="margin: 0 0 18px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(32px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -.03em; color: #F7F2F8; text-wrap: balance;">Construyendo tu equipo automático&nbsp;<span style="color: rgb(255, 50, 148);">en cuatro pasos</span></h2>
+        <p style="margin: 0 auto; max-width: 56ch; font-size: 17px; line-height: 1.62; color: rgba(227,211,228,.66);">Sabes qué pasa cada semana, qué se entrega y cuánto cuesta antes de que escribamos la primera línea de código.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px 24px;">
+        <div data-r="" style="text-align: center;">
+          <div style="font-family: 'Jost', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: .06em; color: #FF3294; margin-bottom: 14px; font-variant-numeric: tabular-nums;">Semana 1</div>
+          <h3 style="margin: 0 0 12px; font-family: 'Jost', sans-serif; font-size: 23px; font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">Escuchamos</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.62; color: rgba(227,211,228,.62);">Una llamada para entender tu operación real: dónde se pierde el tiempo, qué duele y qué quieres que pase.</p>
+        </div>
+        <div data-r="" data-d="80" style="text-align: center;">
+          <div style="font-family: 'Jost', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: .06em; color: #FF3294; margin-bottom: 14px; font-variant-numeric: tabular-nums;">Semanas 1 y 2</div>
+          <h3 style="margin: 0 0 12px; font-family: 'Jost', sans-serif; font-size: 23px; font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">Diseñamos el plano</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.62; color: rgba(227,211,228,.62);">Alcance, pantallas, flujos, tecnología, plazo y precio cerrado. Lo apruebas antes de que arranquemos.</p>
+        </div>
+        <div data-r="" data-d="160" style="text-align: center;">
+          <div style="font-family: 'Jost', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: .06em; color: #FF3294; margin-bottom: 14px; font-variant-numeric: tabular-nums;">Semanas 2 a 8</div>
+          <h3 style="margin: 0 0 12px; font-family: 'Jost', sans-serif; font-size: 23px; font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">Construimos a la vista</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.62; color: rgba(227,211,228,.62);">Entregas cada semana en un enlace que puedes abrir y probar. Nada de esperar meses para ver qué está hecho.</p>
+        </div>
+        <div data-r="" data-d="240" style="text-align: center;">
+          <div style="font-family: 'Jost', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: .06em; color: #FF3294; margin-bottom: 14px; font-variant-numeric: tabular-nums;">Continuo</div>
+          <h3 style="margin: 0 0 12px; font-family: 'Jost', sans-serif; font-size: 23px; font-weight: 500; letter-spacing: -.02em; color: #F7F2F8;">Lanzamos y cuidamos</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.62; color: rgba(227,211,228,.62);">Capacitamos a tu equipo, monitoreamos y seguimos mejorando. Tu sistema crece contigo en vez de congelarse.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="position: relative; padding: clamp(64px, 8vw, 112px) 24px;">
+    <div style="max-width: 1240px; margin: 0 auto;">
+      <h2 data-r="" style="margin: 0 auto clamp(36px, 5vw, 56px); max-width: 20ch; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(32px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -.03em; color: #F7F2F8; text-align: center; text-wrap: balance;">Lo que <span style="color: #FF3294;">cambió para ellos</span></h2>
+
+      <figure data-r="" class="om-split" style="margin: 0; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 20px 48px; align-items: start; padding: 32px 0; border-top: 1px solid rgba(227,211,228,.12);">
+        <blockquote style="margin: 0; font-family: 'Jost', sans-serif; font-size: clamp(20px, 2.2vw, 26px); font-weight: 400; line-height: 1.4; letter-spacing: -.015em; color: #F7F2F8; text-wrap: pretty;">«Lo puse a prueba el fin de semana y me desperté con tres clientes nuevos registrados. Que el negocio funcione mientras yo descanso es lo mejor.»</blockquote>
+        <figcaption style="display: flex; align-items: center; gap: 14px;">
+          <img src="https://automatiastudio.com/wp-content/uploads/2025/12/elzy.jpg" data-local="assets/img/equipo/elzy.jpg" alt="Elza Carrillo" loading="lazy" style="width: 48px; height: 48px; border-radius: 999px; object-fit: cover; flex-shrink: 0;">
+          <span style="font-size: 15px; line-height: 1.45;"><strong style="display: block; color: #F7F2F8; font-weight: 600;">Elza Carrillo</strong><span style="color: rgba(227,211,228,.64);">Directora, Carrillo Constructores</span></span>
+        </figcaption>
+      </figure>
+
+      <figure data-r="" data-d="80" class="om-split" style="margin: 0; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 20px 48px; align-items: start; padding: 32px 0; border-top: 1px solid rgba(227,211,228,.12);">
+        <blockquote style="margin: 0; font-family: 'Jost', sans-serif; font-size: clamp(20px, 2.2vw, 26px); font-weight: 400; line-height: 1.4; letter-spacing: -.015em; color: #F7F2F8; text-wrap: pretty;">«Yo era un caos con los chats y se me perdían los clientes. Ahora todo llega ordenado al sistema y sé quién escribió y qué quiere.»</blockquote>
+        <figcaption style="display: flex; align-items: center; gap: 14px;">
+          <img src="https://automatiastudio.com/wp-content/uploads/2025/12/robert.jpg" data-local="assets/img/equipo/robert.jpg" alt="Robert Ríos" loading="lazy" style="width: 48px; height: 48px; border-radius: 999px; object-fit: cover; flex-shrink: 0;">
+          <span style="font-size: 15px; line-height: 1.45;"><strong style="display: block; color: #F7F2F8; font-weight: 600;">Robert Ríos</strong><span style="color: rgba(227,211,228,.64);">Fundador, Kinemotion</span></span>
+        </figcaption>
+      </figure>
+
+      <figure data-r="" data-d="160" class="om-split" style="margin: 0; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 20px 48px; align-items: start; padding: 32px 0; border-top: 1px solid rgba(227,211,228,.12); border-bottom: 1px solid rgba(227,211,228,.12);">
+        <blockquote style="margin: 0; font-family: 'Jost', sans-serif; font-size: clamp(20px, 2.2vw, 26px); font-weight: 400; line-height: 1.4; letter-spacing: -.015em; color: #F7F2F8; text-wrap: pretty;">«Tardaba horas en contestar y se me iban los clientes. Ahora la respuesta es al segundo y la gente llega lista para pagar.»</blockquote>
+        <figcaption style="display: flex; align-items: center; gap: 14px;">
+          <img src="https://automatiastudio.com/wp-content/uploads/2025/12/daniel.jpg" data-local="assets/img/equipo/daniel.jpg" alt="Daniel Campos" loading="lazy" style="width: 48px; height: 48px; border-radius: 999px; object-fit: cover; flex-shrink: 0;">
+          <span style="font-size: 15px; line-height: 1.45;"><strong style="display: block; color: #F7F2F8; font-weight: 600;">Daniel Campos</strong><span style="color: rgba(227,211,228,.64);">Director, Agencia DALEC</span></span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="estudio" style="position: relative; padding: clamp(64px, 8vw, 112px) 24px;">
+    <div style="max-width: 1240px; margin: 0 auto;">
+      <h2 data-r="" style="margin: 0 auto clamp(40px, 5vw, 60px); max-width: 26ch; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(30px, 4.4vw, 52px); line-height: 1.05; letter-spacing: -.03em; color: #F7F2F8; text-align: center; text-wrap: balance;">Experiencia real, <span style="color: #41EAD4;">no experimentos</span> con tu negocio</h2>
+
+      <div style="display: flex; flex-wrap: wrap; gap: clamp(32px, 5vw, 72px); align-items: flex-start; justify-content: center;">
+        <div data-r="" style="flex: 1 1 300px; min-width: 250px; max-width: 380px;">
+          <img src="https://automatiastudio.com/wp-content/uploads/2025/12/sebas2.webp" data-local="assets/img/equipo/sebas2.webp" alt="Sebastián Mejía, fundador de Automatia Studio" loading="lazy" style="width: 100%; border-radius: 20px; display: block; border: 1px solid rgba(227,211,228,.14);">
+        </div>
+        <div data-r="" data-d="90" style="flex: 1 1 460px; min-width: 300px;">
+          <div style="display: flex; flex-direction: column; gap: 18px; font-size: 17px; line-height: 1.68; color: rgba(227,211,228,.7); max-width: 60ch;">
+            <p style="margin: 0;">Llevo construyendo presencia digital desde <strong style="color: #E3D3E4; font-weight: 600;">2015</strong>. En esos primeros años haciendo sitios web me encontré con algo frustrante: mis clientes tenían plataformas preciosas, pero por detrás seguían siendo esclavos del trabajo manual y del desorden.</p>
+            <p style="margin: 0;">Por eso en <strong style="color: #E3D3E4; font-weight: 600;">2022</strong> cambié el enfoque y me especialicé en automatización de procesos. Una web bonita atrae; el sistema que hay detrás es el que vende y el que te devuelve el tiempo.</p>
+            <p style="margin: 0;">Hoy Automatia Studio junta las dos cosas: <strong style="color: #FF3294; font-weight: 600;">imagen profesional y eficiencia operativa</strong>. No vamos a experimentar contigo, vamos a instalarte una estructura que ya sabemos que funciona.</p>
+          </div>
+          <div style="display: flex; align-items: center; gap: 14px; margin-top: 30px; padding-top: 26px; border-top: 1px solid rgba(227,211,228,.1);">
+            <span style="font-family: 'Jost', sans-serif; font-size: 18px; font-weight: 500; color: #F7F2F8;">Sebastián Mejía</span>
+            <a href="https://instagram.com/automatiastudio" target="_blank" rel="noopener" style="font-size: 15px;">@automatiastudio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="position: relative; padding: clamp(64px, 8vw, 108px) 24px;">
+    <div style="max-width: 860px; margin: 0 auto;">
+      <h2 data-r="" style="margin: 0 auto clamp(32px, 4vw, 48px); max-width: 22ch; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(30px, 4.2vw, 50px); line-height: 1.05; letter-spacing: -.03em; color: #F7F2F8; text-align: center; text-wrap: balance;">Lo que casi siempre <span style="color: #41EAD4;">nos preguntan</span></h2>
+
+      <div data-r="" data-d="80" style="display: flex; flex-direction: column;">
+
+        <details style="border-top: 1px solid rgba(227,211,228,.12);">
+          <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; font-family: 'Jost', sans-serif; font-size: 19px; font-weight: 500; letter-spacing: -.01em; color: #F7F2F8;">
+            ¿Cuánto tarda un proyecto?
+            <span class="om-chev" style="flex-shrink: 0; width: 15px; height: 15px; position: relative; transition: transform .3s cubic-bezier(.16,1,.3,1);"><span style="position: absolute; top: 7px; left: 0; width: 15px; height: 1.5px; background: #41EAD4;"></span><span style="position: absolute; top: 0; left: 6.75px; width: 1.5px; height: 15px; background: #41EAD4;"></span></span>
+          </summary>
+          <p style="margin: 0; padding: 0 0 26px; font-size: 16.5px; line-height: 1.68; color: rgba(227,211,228,.66); max-width: 62ch;">Una landing profesional: una o dos semanas. Una app web a medida o un sistema de automatización completo: entre 4 y 10 semanas según el alcance. La fecha va por escrito en la propuesta.</p>
+        </details>
+
+        <details style="border-top: 1px solid rgba(227,211,228,.12);">
+          <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; font-family: 'Jost', sans-serif; font-size: 19px; font-weight: 500; letter-spacing: -.01em; color: #F7F2F8;">
+            ¿Cómo cobran?
+            <span class="om-chev" style="flex-shrink: 0; width: 15px; height: 15px; position: relative; transition: transform .3s cubic-bezier(.16,1,.3,1);"><span style="position: absolute; top: 7px; left: 0; width: 15px; height: 1.5px; background: #41EAD4;"></span><span style="position: absolute; top: 0; left: 6.75px; width: 1.5px; height: 15px; background: #41EAD4;"></span></span>
+          </summary>
+          <p style="margin: 0; padding: 0 0 26px; font-size: 16.5px; line-height: 1.68; color: rgba(227,211,228,.66); max-width: 62ch;">Precio cerrado por proyecto, no por hora. Se paga por hitos: un anticipo al arrancar y el resto contra entregas. El mantenimiento mensual es opcional y se cotiza aparte.</p>
+        </details>
+
+        <details style="border-top: 1px solid rgba(227,211,228,.12);">
+          <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; font-family: 'Jost', sans-serif; font-size: 19px; font-weight: 500; letter-spacing: -.01em; color: #F7F2F8;">
+            ¿Usan IA para todo?
+            <span class="om-chev" style="flex-shrink: 0; width: 15px; height: 15px; position: relative; transition: transform .3s cubic-bezier(.16,1,.3,1);"><span style="position: absolute; top: 7px; left: 0; width: 15px; height: 1.5px; background: #41EAD4;"></span><span style="position: absolute; top: 0; left: 6.75px; width: 1.5px; height: 15px; background: #41EAD4;"></span></span>
+          </summary>
+          <p style="margin: 0; padding: 0 0 26px; font-size: 16.5px; line-height: 1.68; color: rgba(227,211,228,.66); max-width: 62ch;">Usamos IA donde acelera el trabajo, y criterio humano donde importa. Todo lo que entra en producción lo revisa un ingeniero. Llevamos construyendo software desde antes de que existieran estos modelos, y eso es justamente lo que hace que la IA nos rinda.</p>
+        </details>
+
+        <details style="border-top: 1px solid rgba(227,211,228,.12);">
+          <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; font-family: 'Jost', sans-serif; font-size: 19px; font-weight: 500; letter-spacing: -.01em; color: #F7F2F8;">
+            ¿El código y los datos son míos?
+            <span class="om-chev" style="flex-shrink: 0; width: 15px; height: 15px; position: relative; transition: transform .3s cubic-bezier(.16,1,.3,1);"><span style="position: absolute; top: 7px; left: 0; width: 15px; height: 1.5px; background: #41EAD4;"></span><span style="position: absolute; top: 0; left: 6.75px; width: 1.5px; height: 15px; background: #41EAD4;"></span></span>
+          </summary>
+          <p style="margin: 0; padding: 0 0 26px; font-size: 16.5px; line-height: 1.68; color: rgba(227,211,228,.66); max-width: 62ch;">Sí, al cien por ciento. Todo se entrega en tu repositorio y en tu servidor. Sin licencias por usuario ni candados: si mañana quieres seguir con otro equipo, puedes hacerlo sin pedirnos permiso.</p>
+        </details>
+
+        <details style="border-top: 1px solid rgba(227,211,228,.12);">
+          <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; font-family: 'Jost', sans-serif; font-size: 19px; font-weight: 500; letter-spacing: -.01em; color: #F7F2F8;">
+            Ya tengo web o sistema, ¿pueden trabajar sobre eso?
+            <span class="om-chev" style="flex-shrink: 0; width: 15px; height: 15px; position: relative; transition: transform .3s cubic-bezier(.16,1,.3,1);"><span style="position: absolute; top: 7px; left: 0; width: 15px; height: 1.5px; background: #41EAD4;"></span><span style="position: absolute; top: 0; left: 6.75px; width: 1.5px; height: 15px; background: #41EAD4;"></span></span>
+          </summary>
+          <p style="margin: 0; padding: 0 0 26px; font-size: 16.5px; line-height: 1.68; color: rgba(227,211,228,.66); max-width: 62ch;">Claro. Muchos proyectos empiezan así: revisamos lo que tienes, te decimos con honestidad qué conviene conservar y qué rehacer, y automatizamos alrededor de lo que ya funciona.</p>
+        </details>
+
+        <details style="border-top: 1px solid rgba(227,211,228,.12); border-bottom: 1px solid rgba(227,211,228,.12);">
+          <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; font-family: 'Jost', sans-serif; font-size: 19px; font-weight: 500; letter-spacing: -.01em; color: #F7F2F8;">
+            ¿Qué pasa después de lanzar?
+            <span class="om-chev" style="flex-shrink: 0; width: 15px; height: 15px; position: relative; transition: transform .3s cubic-bezier(.16,1,.3,1);"><span style="position: absolute; top: 7px; left: 0; width: 15px; height: 1.5px; background: #41EAD4;"></span><span style="position: absolute; top: 0; left: 6.75px; width: 1.5px; height: 15px; background: #41EAD4;"></span></span>
+          </summary>
+          <p style="margin: 0; padding: 0 0 26px; font-size: 16.5px; line-height: 1.68; color: rgba(227,211,228,.66); max-width: 62ch;">Capacitamos a tu equipo, dejamos documentación en video y quedamos disponibles. Con soporte contratado monitoreamos el sistema, aplicamos actualizaciones y resolvemos incidencias sin que tengas que perseguirnos.</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" style="position: relative; padding: clamp(64px, 8vw, 108px) 24px clamp(72px, 9vw, 110px); overflow: hidden;">
+    <div aria-hidden="true" style="position: absolute; bottom: -220px; left: 50%; width: 820px; height: 580px; transform: translateX(-50%); background: radial-gradient(ellipse, rgba(255,50,148,.2), transparent 68%);"></div>
+
+    <div style="position: relative; max-width: 1100px; margin: 0 auto;">
+      <div data-r="" style="max-width: 680px; margin: 0 auto clamp(36px, 5vw, 52px); text-align: center;">
+        <h2 style="margin: 0 0 18px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: clamp(34px, 5vw, 60px); line-height: 1.02; letter-spacing: -.035em; color: #F7F2F8; text-wrap: balance;">Cuéntanos <span style="color: #FF3294;">qué quieres construir</span></h2>
+        <p style="margin: 0 auto; max-width: 56ch; font-size: 17px; line-height: 1.62; color: rgba(227,211,228,.68);">Treinta minutos, sin costo y sin compromiso. Salgas o no con nosotros, sales con un diagnóstico claro de tu operación.</p>
+      </div>
+
+      <div data-r="" data-d="60" style="border-radius: 20px; border: 1px solid rgba(227,211,228,.12); background: rgba(16,13,24,.9); overflow: hidden; padding: 8px;">
+        <div id="my-cal-inline-asesoria" style="width: 100%; min-height: 700px; overflow: auto;"></div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
+        <a class="ai76" data-r="" data-d="60" href="https://wa.me/19302006200" target="_blank" rel="noopener" style="display: block; padding: 28px; border-radius: 20px; border: 1px solid rgba(227,211,228,.14); background: rgba(16,13,24,.9); color: #E3D3E4; transition: border-color .25s ease, transform .25s cubic-bezier(.16,1,.3,1);">
+          <i class="ph ph-whatsapp-logo" style="font-size: 30px; color: #41EAD4; display: block; margin-bottom: 16px;"></i>
+          <h3 style="margin: 0 0 8px; font-family: 'Jost', sans-serif; font-size: 21px; font-weight: 500; color: #F7F2F8;">WhatsApp directo</h3>
+          <p style="margin: 0 0 14px; font-size: 16px; line-height: 1.58; color: rgba(227,211,228,.64);">Si prefieres escribir antes de agendar, respondemos en horario laboral.</p>
+          <span style="font-family: 'Jost', sans-serif; font-size: 16px; color: #41EAD4;">+1 930 200 6200</span>
+        </a>
+
+        <a class="ai77" data-r="" data-d="120" href="mailto:info@automatiastudio.com" style="display: block; padding: 28px; border-radius: 20px; border: 1px solid rgba(227,211,228,.14); background: rgba(16,13,24,.9); color: #E3D3E4; transition: border-color .25s ease, transform .25s cubic-bezier(.16,1,.3,1);">
+          <i class="ph ph-envelope-simple" style="font-size: 30px; color: #41EAD4; display: block; margin-bottom: 16px;"></i>
+          <h3 style="margin: 0 0 8px; font-family: 'Jost', sans-serif; font-size: 21px; font-weight: 500; color: #F7F2F8;">Correo</h3>
+          <p style="margin: 0 0 14px; font-size: 16px; line-height: 1.58; color: rgba(227,211,228,.64);">Mándanos el brief, los enlaces o lo que tengas a mano. Lo revisamos y te contestamos.</p>
+          <span style="font-family: 'Jost', sans-serif; font-size: 16px; color: #41EAD4; word-break: break-all;">info@automatiastudio.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="position: relative; padding: clamp(56px, 7vw, 80px) 24px 40px; border-top: 1px solid rgba(227,211,228,.09); background: #08060D;">
+    <div style="max-width: 1240px; margin: 0 auto;">
+      <div style="display: flex; flex-wrap: wrap; gap: 48px; justify-content: space-between;">
+
+        <div style="flex: 1 1 300px; max-width: 380px;">
+          <img src="assets/logo.png" alt="Automatia Studio" style="height: 44px; width: auto; display: block; margin-bottom: 22px;">
+          <p style="margin: 0; font-size: 15.5px; line-height: 1.62; color: rgba(227,211,228,.55);">Webs, aplicaciones y automatización con IA para founders, startups y empresas que quieren dejar de hacer todo a mano.</p>
+        </div>
+
+        <div style="flex: 0 1 230px;">
+          <p style="margin: 0 0 16px; font-family: 'Jost', sans-serif; font-size: 12.5px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: rgba(227,211,228,.58);">Enlaces</p>
+          <div style="display: flex; flex-direction: column; gap: 12px; font-size: 15.5px;">
+            <a class="ai78" href="https://zenhost.io" target="_blank" rel="noopener" style="color: rgba(227,211,228,.66);">Cloud Services</a>
+            <a class="ai79" href="https://bellcat.app" target="_blank" rel="noopener" style="color: rgba(227,211,228,.66);">LLC Formation</a>
+            <a class="ai80" href="terminos.html" style="color: rgba(227,211,228,.66);">Términos de Servicio</a>
+            <a class="ai81" href="privacidad.html" style="color: rgba(227,211,228,.66);">Política de Privacidad</a>
+          </div>
+        </div>
+
+        <div style="flex: 0 1 230px;">
+          <p style="margin: 0 0 16px; font-family: 'Jost', sans-serif; font-size: 12.5px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: rgba(227,211,228,.58);">Contacto</p>
+          <div style="display: flex; flex-direction: column; gap: 12px; font-size: 15.5px;">
+            <a class="ai82" href="mailto:info@automatiastudio.com" style="color: rgba(227,211,228,.66); word-break: break-all;">info@automatiastudio.com</a>
+            <a class="ai83" href="https://wa.me/19302006200" target="_blank" rel="noopener" style="color: rgba(227,211,228,.66);">+1 930 200 6200</a>
+            <a class="ai84" href="https://instagram.com/automatiastudio" target="_blank" rel="noopener" style="color: rgba(227,211,228,.66);">Instagram</a>
+            <a class="ai85" href="https://www.linkedin.com/in/seb-automatia/" target="_blank" rel="noopener" style="color: rgba(227,211,228,.66);">LinkedIn</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-top: 56px; padding-top: 26px; border-top: 1px solid rgba(227,211,228,.08); display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; font-size: 14px; color: rgba(227,211,228,.58);">
+        <span>© 2026 Automatia Studio LLC · Todos los derechos reservados</span>
+        <span></span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="om-lightbox" data-open="0" role="dialog" aria-modal="true" aria-label="Video de Automatia Studio" style="position: fixed; inset: 0; z-index: 200; align-items: center; justify-content: center; padding: 24px; background: rgba(6,5,11,.92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
+    <button class="ai86" type="button" data-video-close="" aria-label="Cerrar video" style="position: absolute; top: 20px; right: 20px; width: 48px; height: 48px; border-radius: 999px; border: 1px solid rgba(227,211,228,.22); background: rgba(16,13,24,.8); color: #E3D3E4; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: border-color .2s ease, color .2s ease;">
+      <i class="ph ph-x" style="font-size: 22px;"></i>
+    </button>
+    <div style="width: 100%; max-width: 1120px; aspect-ratio: 16 / 9; border-radius: 20px; overflow: hidden; background: #08060D; border: 1px solid rgba(227,211,228,.14);">
+      <div id="om-video-slot" style="width: 100%; height: 100%;"></div>
+    </div>
+  </div>
+
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>

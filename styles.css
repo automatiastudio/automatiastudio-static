@@ -1,0 +1,138 @@
+/* Automatia Studio — hoja de estilos base */
+* { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #0A0810; color: #E3D3E4; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; caret-color: #FF3294; scrollbar-color: #3D315B #0A0810; scrollbar-width: thin; }
+  body::-webkit-scrollbar { width: 11px; }
+  body::-webkit-scrollbar-track { background: #0A0810; }
+  body::-webkit-scrollbar-thumb { background: #3D315B; border-radius: 999px; border: 3px solid #0A0810; }
+  body::-webkit-scrollbar-thumb:hover { background: #FF3294; }
+  a { color: #FF3294; text-decoration: none; }
+  a:hover { color: #F7F2F8; }
+  h1, h2, h3, h4, blockquote { font-style: normal; }
+  ::selection { background: #FF3294; color: #0A0810; }
+  :focus-visible { outline: 2px solid #41EAD4; outline-offset: 3px; border-radius: 4px; }
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .om-chev { transform: rotate(45deg); }
+  #om-header { background: transparent; border-bottom: 1px solid transparent; transition: background .35s ease, border-color .35s ease, backdrop-filter .35s ease; }
+  #om-header[data-scrolled="1"] { background: rgba(10,8,16,.74); border-bottom-color: rgba(227,211,228,.09); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+  #om-lightbox { display: none; }
+  #om-lightbox[data-open="1"] { display: flex; }
+  @media (max-width: 760px) {
+    .om-split { grid-template-columns: 1fr !important; }
+    .om-split h3 { font-size: 22px !important; }
+    .om-split blockquote { font-size: 20px !important; }
+    .om-shift { grid-template-columns: 1fr !important; gap: 18px !important; }
+    .om-labels { display: none !important; }
+    .om-was::before { content: 'HOY'; display: block; font-family: 'Jost', sans-serif; font-size: 11.5px; font-weight: 500; letter-spacing: .16em; color: rgba(227,211,228,.64); margin-bottom: 7px; }
+    .om-now { flex-wrap: wrap; }
+    .om-now::before { content: 'CON AUTOMATIA STUDIO'; width: 100%; font-family: 'Jost', sans-serif; font-size: 11.5px; font-weight: 500; letter-spacing: .16em; color: #FF3294; margin-bottom: 7px; }
+  }
+  @keyframes om-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; } }
+
+/* páginas legales */
+  h1, h2, h3 { font-style: normal; }
+  h1, h2, h3 { font-style: normal; }
+
+/* estados interactivos */
+.ai0:hover { filter: brightness(1.12) !important; color: #0A0810 !important; }
+.ai0:active { transform: translateY(1px) !important; }
+.ai1:hover { filter: brightness(1.12) !important; color: #0A0810 !important; }
+.ai1:active { transform: translateY(1px) !important; }
+.ai2:hover { border-color: #41EAD4 !important; background: rgba(65,234,212,.12) !important; }
+.ai2:active { transform: translateY(1px) !important; }
+.ai3:hover { opacity: 1 !important; }
+.ai4:hover { opacity: 1 !important; }
+.ai5:hover { opacity: 1 !important; }
+.ai6:hover { opacity: 1 !important; }
+.ai7:hover { opacity: 1 !important; }
+.ai8:hover { opacity: 1 !important; }
+.ai9:hover { border-color: rgba(255,50,148,.55) !important; }
+.ai10:hover { border-color: rgba(255,50,148,.55) !important; }
+.ai11:hover { border-color: rgba(255,50,148,.55) !important; }
+.ai12:hover { border-color: rgba(255,50,148,.55) !important; }
+.ai13:hover { border-color: rgba(255,50,148,.55) !important; }
+.ai14:hover { border-color: rgba(255,50,148,.55) !important; }
+.ai15:hover { opacity: 1 !important; }
+.ai16:hover { opacity: 1 !important; }
+.ai17:hover { opacity: 1 !important; }
+.ai18:hover { opacity: 1 !important; }
+.ai19:hover { opacity: 1 !important; }
+.ai20:hover { opacity: 1 !important; }
+.ai21:hover { opacity: 1 !important; }
+.ai22:hover { opacity: 1 !important; }
+.ai23:hover { opacity: 1 !important; }
+.ai24:hover { opacity: 1 !important; }
+.ai25:hover { opacity: 1 !important; }
+.ai26:hover { opacity: 1 !important; }
+.ai27:hover { opacity: 1 !important; }
+.ai28:hover { opacity: 1 !important; }
+.ai29:hover { opacity: 1 !important; }
+.ai30:hover { opacity: 1 !important; }
+.ai31:hover { opacity: 1 !important; }
+.ai32:hover { opacity: 1 !important; }
+.ai33:hover { opacity: 1 !important; }
+.ai34:hover { opacity: 1 !important; }
+.ai35:hover { opacity: 1 !important; }
+.ai36:hover { opacity: 1 !important; }
+.ai37:hover { opacity: 1 !important; }
+.ai38:hover { opacity: 1 !important; }
+.ai39:hover { opacity: 1 !important; }
+.ai40:hover { opacity: 1 !important; }
+.ai41:hover { opacity: 1 !important; }
+.ai42:hover { opacity: 1 !important; }
+.ai43:hover { opacity: 1 !important; }
+.ai44:hover { opacity: 1 !important; }
+.ai45:hover { opacity: 1 !important; }
+.ai46:hover { opacity: 1 !important; }
+.ai47:hover { opacity: 1 !important; }
+.ai48:hover { opacity: 1 !important; }
+.ai49:hover { opacity: 1 !important; }
+.ai50:hover { opacity: 1 !important; }
+.ai51:hover { opacity: 1 !important; }
+.ai52:hover { opacity: 1 !important; }
+.ai53:hover { opacity: 1 !important; }
+.ai54:hover { opacity: 1 !important; }
+.ai55:hover { opacity: 1 !important; }
+.ai56:hover { opacity: 1 !important; }
+.ai57:hover { opacity: 1 !important; }
+.ai58:hover { opacity: 1 !important; }
+.ai59:hover { opacity: 1 !important; }
+.ai60:hover { opacity: 1 !important; }
+.ai61:hover { opacity: 1 !important; }
+.ai62:hover { opacity: 1 !important; }
+.ai63:hover { opacity: 1 !important; }
+.ai64:hover { opacity: 1 !important; }
+.ai65:hover { opacity: 1 !important; }
+.ai66:hover { opacity: 1 !important; }
+.ai67:hover { opacity: 1 !important; }
+.ai68:hover { opacity: 1 !important; }
+.ai69:hover { opacity: 1 !important; }
+.ai70:hover { opacity: 1 !important; }
+.ai71:hover { opacity: 1 !important; }
+.ai72:hover { opacity: 1 !important; }
+.ai73:hover { opacity: 1 !important; }
+.ai74:hover { opacity: 1 !important; }
+.ai75:hover { border-color: #41EAD4 !important; }
+.ai76:hover { border-color: #41EAD4 !important; color: #E3D3E4 !important; }
+.ai76:active { transform: translateY(1px) !important; }
+.ai77:hover { border-color: #41EAD4 !important; color: #E3D3E4 !important; }
+.ai77:active { transform: translateY(1px) !important; }
+.ai78:hover { color: #41EAD4 !important; }
+.ai79:hover { color: #41EAD4 !important; }
+.ai80:hover { color: #41EAD4 !important; }
+.ai81:hover { color: #41EAD4 !important; }
+.ai82:hover { color: #41EAD4 !important; }
+.ai83:hover { color: #41EAD4 !important; }
+.ai84:hover { color: #41EAD4 !important; }
+.ai85:hover { color: #41EAD4 !important; }
+.ai86:hover { border-color: #41EAD4 !important; color: #41EAD4 !important; }
+.at0:hover { color: #41EAD4 !important; }
+.at1:hover { color: #41EAD4 !important; }
+.at2:hover { color: #41EAD4 !important; }
+.ap0:hover { color: #41EAD4 !important; }
+.ap1:hover { color: #F7F2F8 !important; }
+.ap2:hover { color: #F7F2F8 !important; }
+.ap3:hover { color: #41EAD4 !important; }
+.ap4:hover { color: #41EAD4 !important; }
