@@ -63,9 +63,11 @@ function lightbox() {
   function open() {
     slot.innerHTML = '';
     var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + CONFIG.videoId + '?autoplay=1&rel=0&modestbranding=1';
-    f.title = 'Automatia Studio';
-    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture';
+    f.src = 'https://www.youtube.com/embed/' + CONFIG.videoId + '?si=' + CONFIG.videoSi + '&autoplay=1&rel=0';
+    f.title = 'YouTube video player';
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    f.setAttribute('frameborder', '0');
     f.allowFullscreen = true;
     f.style.cssText = 'width:100%;height:100%;border:0;display:block;';
     slot.appendChild(f);

@@ -1,14 +1,13 @@
-# Imágenes a descargar
+# Imágenes del sitio
 
-Estos son los únicos archivos que faltan para que el sitio funcione 100% sin internet.
-Tu servidor actual (Cloudflare) bloquea la descarga automática, así que hay que bajarlos a
-mano desde la Biblioteca de Medios de WordPress y guardarlos con la ruta exacta de la tabla.
+El HTML apunta directamente a estas rutas locales: **si un archivo no existe, la imagen sale
+rota**. No hay respaldo remoto. Con los 40 archivos en su sitio, la página funciona sin internet.
 
-**Mientras no los copies, el sitio funciona igual:** carga esas imágenes desde
-`automatiastudio.com`. En cuanto copies los archivos, `script.js` detecta el paquete
-y todas las imágenes pasan a servirse desde el disco.
+Esta tabla queda como referencia de dónde salió cada archivo, por si necesitas reponer alguno.
+Cloudflare bloquea la descarga automática desde el servidor actual, así que se bajan desde la
+Biblioteca de Medios de WordPress.
 
-Carpetas a crear dentro de `assets/img/`: `clientes/`, `equipo/`, `tools/`
+Carpetas dentro de `assets/img/`: `clientes/`, `equipo/`, `tools/`
 
 | Guardar en | Descargar de |
 | --- | --- |
@@ -56,3 +55,5 @@ Carpetas a crear dentro de `assets/img/`: `clientes/`, `equipo/`, `tools/`
 Total: 40 archivos.
 
 Ya incluidos: `assets/img/video-cover.jpg` y `assets/logo.png`.
+
+Ya incluidos en el paquete: `assets/img/video-cover.jpg` y `assets/logo.png`.
