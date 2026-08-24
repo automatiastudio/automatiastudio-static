@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
   lightbox();
   cal();
   nebula();
-  imageFallback();
 });
 
 /* 1 ---------------------------------------------------------------- */
@@ -220,23 +219,6 @@ function nebula() {
   });
 
   requestAnimationFrame(function () { host.style.opacity = '1'; });
-}
-
-/* 6 — imágenes locales ----------------------------------------------
-   Cada <img> trae la URL de automatiastudio.com en src y su ruta local
-   en data-local. Probamos UN archivo local: si existe, asumimos que ya
-   copiaste el paquete de imágenes (ver assets/img/DESCARGAR.md) y todas
-   pasan a servirse desde el disco, con lo que el sitio queda offline. */
-function imageFallback() {
-  var imgs = document.querySelectorAll('img[data-local]');
-  if (!imgs.length) return;
-  var probe = new Image();
-  probe.onload = function () {
-    Array.prototype.forEach.call(imgs, function (img) {
-      img.src = img.getAttribute('data-local');
-    });
-  };
-  probe.src = imgs[0].getAttribute('data-local');
 }
 
 /* 7 — el calendario necesita internet -------------------------------- */

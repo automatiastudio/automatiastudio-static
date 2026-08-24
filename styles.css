@@ -136,3 +136,7 @@
 .ap2:hover { color: #F7F2F8 !important; }
 .ap3:hover { color: #41EAD4 !important; }
 .ap4:hover { color: #41EAD4 !important; }
+
+/* botón flotante de WhatsApp */
+.om-wa:hover { transform: translateY(-3px) !important; filter: brightness(1.08) !important; color: #0A0810 !important; }
+.om-wa:active { transform: translateY(0) !important; }
