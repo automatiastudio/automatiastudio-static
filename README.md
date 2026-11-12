@@ -67,7 +67,7 @@ var CONFIG = {
 ```
 
 WhatsApp y correo están escritos directo en el HTML. Para cambiarlos, busca y reemplaza
-`19302006200` y `info@automatiastudio.com` en los tres archivos `.html`.
+`19302006200` y `info@automatiastudio.com` en los cuatro archivos `.html` con contenido.
 
 ## Notas técnicas
 
@@ -79,5 +79,5 @@ WhatsApp y correo están escritos directo en el HTML. Para cambiarlos, busca y r
 - Con `prefers-reduced-motion` activo, el fondo animado no arranca y las apariciones se desactivan.
 - Las páginas legales llevan `noindex, nofollow`.
 - El botón flotante de WhatsApp es el enlace con clase `om-wa`, fijo abajo a la derecha con
-  20px de margen y `z-index: 120` (queda por debajo del lightbox del video). Está en las tres
-  páginas; su hover vive en `styles.css`.
+  20px de margen y `z-index: 120` (queda por debajo del lightbox del video). Está en la home,
+  Diagnóstico y las dos páginas legales; su hover vive en `styles.css`.
